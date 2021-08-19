@@ -8,6 +8,19 @@
         "dest": "achievements/REPO_NAME/"
       },
       {
+        "src": "mec",
+        "files": [
+            "**/*.yml",
+            "**/*.md"
+        ],
+        "exclude": [
+            "**/includes/**",
+            "**/design/**",
+            "**/resources/**"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
